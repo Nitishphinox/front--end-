@@ -1,0 +1,101 @@
+/* General styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #26f00b; /* Change this value to your desired background color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styling */
+.container {
+    background-color: rgb(235, 15, 150);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Title styling */
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #d073e7;
+}
+
+/* Input styling */
+#input {
+    width: calc(100% - 26px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Button styling */
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: rgb(255, 8, 8);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+/* Task list styling */
+.ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Individual task styling */
+.ul li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Edit and Delete button styling */
+.ul li button {
+    margin-left: 8px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ul li .edit {
+    background-color: #ffc107;
+    color: white;
+}
+
+.ul li .edit:hover {
+    background-color: #e0a800;
+}
+
+.ul li .delete {
+    background-color: #dc3545;
+    color: white;
+}
+
+.ul li .delete:hover {
+    background-color: #c82333;
+}
